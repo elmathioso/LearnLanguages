@@ -1,0 +1,587 @@
+,block,category,set,word
+0,1,Adjectives for People,1,angry
+1,1,Adjectives for People,1,beautiful
+2,1,Adjectives for People,1,brave
+3,1,Adjectives for People,1,careful
+4,1,Adjectives for People,1,careless
+5,1,Adjectives for People,1,clever
+6,1,Adjectives for People,2,crazy
+7,1,Adjectives for People,2,cute
+8,1,Adjectives for People,2,dangerous
+9,1,Adjectives for People,2,exciting
+10,1,Adjectives for People,2,famous
+11,1,Adjectives for People,2,friendly
+12,1,Adjectives for People,3,happy
+13,1,Adjectives for People,3,interesting
+14,1,Adjectives for People,3,lucky
+15,1,Adjectives for People,3,old
+16,1,Adjectives for People,3,poor
+17,1,Adjectives for People,3,popular
+18,1,Adjectives for People,4,rich
+19,1,Adjectives for People,4,sad
+20,1,Adjectives for People,4,thin
+21,1,Adjectives for People,4,ugly
+22,1,Adjectives for People,4,unlucky
+23,1,Adjectives for People,4,young
+24,2,Adverbs of Time,1,after
+25,2,Adverbs of Time,1,always
+26,2,Adverbs of Time,1,before
+27,2,Adverbs of Time,1,during
+28,2,Adverbs of Time,2,lately
+29,2,Adverbs of Time,2,never
+30,2,Adverbs of Time,2,often
+31,2,Adverbs of Time,2,rarely
+32,2,Adverbs of Time,3,recently
+33,2,Adverbs of Time,3,sometimes
+34,2,Adverbs of Time,3,soon
+35,2,Adverbs of Time,3,today
+36,2,Adverbs of Time,4,tomorrow
+37,2,Adverbs of Time,4,usually
+38,2,Adverbs of Time,4,yesterday
+39,3,Animals,1,alligator
+40,3,Animals,1,ant
+41,3,Animals,1,bear
+42,3,Animals,1,bee
+43,3,Animals,1,bird
+44,3,Animals,1,camel
+45,3,Animals,1,cat
+46,3,Animals,1,cheetah
+47,3,Animals,1,chicken
+48,3,Animals,1,chimpanzee
+49,3,Animals,1,cow
+50,3,Animals,1,crocodile
+51,3,Animals,1,deer
+52,3,Animals,2,dog
+53,3,Animals,2,dolphin
+54,3,Animals,2,duck
+55,3,Animals,2,eagle
+56,3,Animals,2,elephant
+57,3,Animals,2,fish
+58,3,Animals,2,fly
+59,3,Animals,2,fox
+60,3,Animals,2,frog
+61,3,Animals,2,giraffe
+62,3,Animals,2,goat
+63,3,Animals,2,goldfish
+64,3,Animals,2,hamster
+65,3,Animals,3,hippopotamus
+66,3,Animals,3,horse
+67,3,Animals,3,kangaroo
+68,3,Animals,3,kitten
+69,3,Animals,3,lion
+70,3,Animals,3,lobster
+71,3,Animals,3,monkey
+72,3,Animals,3,octopus
+73,3,Animals,3,owl
+74,3,Animals,3,panda
+75,3,Animals,3,pig
+76,3,Animals,3,puppy
+77,3,Animals,3,rabbit
+78,3,Animals,4,rat
+79,3,Animals,4,scorpion
+80,3,Animals,4,seal
+81,3,Animals,4,shark
+82,3,Animals,4,sheep
+83,3,Animals,4,snail
+84,3,Animals,4,snake
+85,3,Animals,4,spider
+86,3,Animals,4,squirrel
+87,3,Animals,4,tiger
+88,3,Animals,4,turtle
+89,3,Animals,4,wolf
+90,3,Animals,4,zebra
+91,4,Bank,1,account
+92,4,Bank,1,bills
+93,4,Bank,1,borrow
+94,4,Bank,1,alarm
+95,4,Bank,1,cash
+96,4,Bank,1,cashier
+97,4,Bank,1,check
+98,4,Bank,2,coins
+99,4,Bank,2,credit
+100,4,Bank,2,credit card
+101,4,Bank,2,currency
+102,4,Bank,2,customer
+103,4,Bank,2,deposit
+104,4,Bank,2,interest
+105,4,Bank,3,lend
+106,4,Bank,3,loan
+107,4,Bank,3,manager
+108,4,Bank,3,money
+109,4,Bank,3,mortgage
+110,4,Bank,3,pay
+111,4,Bank,3,save
+112,4,Bank,4,savings
+113,4,Bank,4,guard
+114,4,Bank,4,teller
+115,4,Bank,4,vault
+116,4,Bank,4,withdraw
+117,5,Baseball,1,ball
+118,5,Baseball,1,cap
+119,5,Baseball,1,bat
+120,5,Baseball,1,batter
+121,5,Baseball,1,bunt
+122,5,Baseball,1,catch
+123,5,Baseball,1,catcher
+124,5,Baseball,1,coach
+125,5,Baseball,1,curve
+126,5,Baseball,1,dugout
+127,5,Baseball,2,fence
+128,5,Baseball,2,field
+129,5,Baseball,2,umpire
+130,5,Baseball,2,first baseman
+131,5,Baseball,2,foul
+132,5,Baseball,2,foul line
+133,5,Baseball,2,four ball
+134,5,Baseball,2,glove
+135,5,Baseball,2,helmet
+136,5,Baseball,2,hit
+137,5,Baseball,3,home plate
+138,5,Baseball,3,inning
+139,5,Baseball,3,left fielder
+140,5,Baseball,3,major league
+141,5,Baseball,3,minor league
+142,5,Baseball,3,pitch
+143,5,Baseball,3,pitcher
+144,5,Baseball,3,right fielder
+145,5,Baseball,3,run
+146,5,Baseball,3,runner
+147,5,Baseball,4,scoreboard
+148,5,Baseball,4,second baseman
+149,5,Baseball,4,short stop
+150,5,Baseball,4,slide
+151,5,Baseball,4,steal
+152,5,Baseball,4,strike
+153,5,Baseball,4,strike out
+154,5,Baseball,4,third baseman
+155,5,Baseball,4,throw
+156,5,Baseball,4,walk
+157,6,Body,1,back
+158,6,Body,1,cheeks
+159,6,Body,1,chest
+160,6,Body,1,chin
+161,6,Body,1,ears
+162,6,Body,1,eyebrows
+163,6,Body,1,eyes
+164,6,Body,1,feet
+165,6,Body,2,fingers
+166,6,Body,2,foot
+167,6,Body,2,forehead
+168,6,Body,2,hair
+169,6,Body,2,hands
+170,6,Body,2,head
+171,6,Body,2,hips
+172,6,Body,2,knees
+173,6,Body,3,legs
+174,6,Body,3,lips
+175,6,Body,3,mouth
+176,6,Body,3,neck
+177,6,Body,3,nose
+178,6,Body,3,shoulders
+179,6,Body,3,stomach
+180,6,Body,3,teeth
+181,6,Body,4,teeth
+182,6,Body,4,throat
+183,6,Body,4,toes
+184,6,Body,4,tongue
+185,6,Body,4,tooth
+186,6,Body,4,waist
+187,7,Buildings and Places,1,airport
+188,7,Buildings and Places,1,apartment building
+189,7,Buildings and Places,1,bank
+190,7,Buildings and Places,1,barber shop
+191,7,Buildings and Places,1,book store
+192,7,Buildings and Places,1,bowling alley
+193,7,Buildings and Places,2,bus stop
+194,7,Buildings and Places,2,church
+195,7,Buildings and Places,2,convenience store
+196,7,Buildings and Places,2,department store
+197,7,Buildings and Places,2,fire department
+198,7,Buildings and Places,2,gas station
+199,7,Buildings and Places,3,hospital
+200,7,Buildings and Places,3,house
+201,7,Buildings and Places,3,library
+202,7,Buildings and Places,3,movie theater
+203,7,Buildings and Places,3,museum
+204,7,Buildings and Places,3,office building
+205,7,Buildings and Places,4,post office
+206,7,Buildings and Places,4,restaurant
+207,7,Buildings and Places,4,school
+208,7,Buildings and Places,4,mall
+209,7,Buildings and Places,4,supermarket
+210,7,Buildings and Places,4,train station
+211,8,Car Parts (US),1,accelerator
+212,8,Car Parts (US),1,battery
+213,8,Car Parts (US),1,blinker
+214,8,Car Parts (US),1,brake
+215,8,Car Parts (US),1,bumper
+216,8,Car Parts (US),1,clutch
+217,8,Car Parts (US),2,dashboard
+218,8,Car Parts (US),2,gear
+219,8,Car Parts (US),2,headlight
+220,8,Car Parts (US),2,horn
+221,8,Car Parts (US),2,hubcap
+222,8,Car Parts (US),2,license plate
+223,8,Car Parts (US),3,rearview mirror
+224,8,Car Parts (US),3,seat
+225,8,Car Parts (US),3,speedometer
+226,8,Car Parts (US),3,taillight
+227,8,Car Parts (US),3,tire
+228,8,Car Parts (US),3,trunk
+229,8,Car Parts (US),4,turn signal
+230,8,Car Parts (US),4,wheel
+231,8,Car Parts (US),4,windshield
+232,8,Car Parts (US),4,windshield wiper
+233,9,City,1,park
+234,9,City,1,store
+235,9,City,1,post office
+236,9,City,2,bank
+237,9,City,2,street
+238,9,City,2,road
+239,9,City,3,parking meter
+240,9,City,3,pedestrian crossing
+241,9,City,3,bus stop
+242,9,City,4,train station
+243,9,City,4,fire station
+244,9,City,4,police station
+245,10,Classroom,1,blackboard
+246,10,Classroom,1,blackboard eraser
+247,10,Classroom,1,book
+248,10,Classroom,1,bookcase
+249,10,Classroom,1,bulletin board
+250,10,Classroom,2,calendar
+251,10,Classroom,2,chair
+252,10,Classroom,2,chalk
+253,10,Classroom,2,clock
+254,10,Classroom,2,computer
+255,10,Classroom,3,desk
+256,10,Classroom,3,dictionary
+257,10,Classroom,3,eraser
+258,10,Classroom,3,map
+259,10,Classroom,3,notebook
+260,10,Classroom,4,pen
+261,10,Classroom,4,pencil
+262,10,Classroom,4,pencil sharpener
+263,10,Classroom,4,textbook
+264,10,Classroom,4,white board
+265,11,Clothes,1,belt
+266,11,Clothes,1,boots
+267,11,Clothes,1,cap
+268,11,Clothes,1,coat
+269,11,Clothes,1,dress
+270,11,Clothes,1,gloves
+271,11,Clothes,1,hat
+272,11,Clothes,2,jacket
+273,11,Clothes,2,jeans
+274,11,Clothes,2,pajamas
+275,11,Clothes,2,pants
+276,11,Clothes,2,raincoat
+277,11,Clothes,2,scarf
+278,11,Clothes,2,shirt
+279,11,Clothes,3,shoes
+280,11,Clothes,3,skirt
+281,11,Clothes,3,slacks
+282,11,Clothes,3,slippers
+283,11,Clothes,3,socks
+284,11,Clothes,3,stockings
+285,11,Clothes,3,suit
+286,11,Clothes,4,sweater
+287,11,Clothes,4,sweatshirt
+288,11,Clothes,4,t-shirt
+289,11,Clothes,4,tie
+290,11,Clothes,4,trousers
+291,11,Clothes,4,underclothes
+292,11,Clothes,4,underpants
+293,11,Clothes,4,undershirt
+294,12,The Basic Colors (American Spellings),1,black
+295,12,The Basic Colors (American Spellings),1,blue
+296,12,The Basic Colors (American Spellings),1,brown
+297,12,The Basic Colors (American Spellings),2,gray
+298,12,The Basic Colors (American Spellings),2,green
+299,12,The Basic Colors (American Spellings),2,orange
+300,12,The Basic Colors (American Spellings),3,pink
+301,12,The Basic Colors (American Spellings),3,purple
+302,12,The Basic Colors (American Spellings),3,red
+303,12,The Basic Colors (American Spellings),4,white
+304,12,The Basic Colors (American Spellings),4,yellow
+305,13,The Basic Colours (British Spellings),1,black
+306,13,The Basic Colours (British Spellings),1,blue
+307,13,The Basic Colours (British Spellings),1,brown
+308,13,The Basic Colours (British Spellings),2,grey
+309,13,The Basic Colours (British Spellings),2,green
+310,13,The Basic Colours (British Spellings),2,orange
+311,13,The Basic Colours (British Spellings),3,pink
+312,13,The Basic Colours (British Spellings),3,purple
+313,13,The Basic Colours (British Spellings),3,red
+314,13,The Basic Colours (British Spellings),4,white
+315,13,The Basic Colours (British Spellings),4,yellow
+316,14,Cooking,1,bake
+317,14,Cooking,1,boil
+318,14,Cooking,1,broil
+319,14,Cooking,1,can opener
+320,14,Cooking,1,fry
+321,14,Cooking,1,grill
+322,14,Cooking,2,measuring cup
+323,14,Cooking,2,measuring spoon
+324,14,Cooking,2,microwave
+325,14,Cooking,2,mixing bowl
+326,14,Cooking,2,paper towels
+327,14,Cooking,2,poach
+328,14,Cooking,3,potholder
+329,14,Cooking,3,roast
+330,14,Cooking,3,rolling pin
+331,14,Cooking,3,scramble
+332,14,Cooking,3,simmer
+333,14,Cooking,3,knife
+334,14,Cooking,4,spoon
+335,14,Cooking,4,spatula
+336,14,Cooking,4,steam
+337,14,Cooking,4,strainer
+338,14,Cooking,4,timer
+339,14,Cooking,4,fork
+340,15,Days of the Week,1,Sunday
+341,15,Days of the Week,1,Monday
+342,15,Days of the Week,2,Tuesday
+343,15,Days of the Week,2,Wednesday
+344,15,Days of the Week,3,Thursday
+345,15,Days of the Week,3,Friday
+346,15,Days of the Week,4,Saturday
+347,16,Desserts,1,pie
+348,16,Desserts,1,cake
+349,16,Desserts,1,candy
+350,16,Desserts,1,chocolate bar
+351,16,Desserts,2,cookie
+352,16,Desserts,2,donut
+353,16,Desserts,2,doughnut
+354,16,Desserts,2,fruit
+355,16,Desserts,3,ice cream
+356,16,Desserts,3,muffin
+357,16,Desserts,3,pie
+358,16,Desserts,3,potato chips
+359,16,Desserts,4,pudding
+360,16,Desserts,4,sweet roll
+361,17,Dinner Table,1,bowl
+362,17,Dinner Table,1,cup
+363,17,Dinner Table,1,dish
+364,17,Dinner Table,1,fork
+365,17,Dinner Table,2,glass
+366,17,Dinner Table,2,knife
+367,17,Dinner Table,2,mug
+368,17,Dinner Table,2,napkin
+369,17,Dinner Table,3,pepper
+370,17,Dinner Table,3,pitcher
+371,17,Dinner Table,3,plate
+372,17,Dinner Table,3,salad
+373,17,Dinner Table,4,salt
+374,17,Dinner Table,4,saucer
+375,17,Dinner Table,4,spoon
+376,17,Dinner Table,4,sugar
+377,18,Family Members,1,aunt
+378,18,Family Members,1,brother
+379,18,Family Members,1,cousin
+380,18,Family Members,1,daughter
+381,18,Family Members,2,father
+382,18,Family Members,2,granddaughter
+383,18,Family Members,2,grandmother
+384,18,Family Members,2,grandson
+385,18,Family Members,3,mother
+386,18,Family Members,3,nephew
+387,18,Family Members,3,niece
+388,18,Family Members,3,sister
+389,18,Family Members,4,son
+390,18,Family Members,4,stepdaughter
+391,18,Family Members,4,stepmother
+392,18,Family Members,4,stepson
+393,18,Family Members,4,uncle
+394,19,Fruit,1,apple
+395,19,Fruit,1,banana
+396,19,Fruit,1,cherry
+397,19,Fruit,1,grapefruit
+398,19,Fruit,2,grapes
+399,19,Fruit,2,lemon
+400,19,Fruit,2,lime
+401,19,Fruit,2,melon
+402,19,Fruit,3,orange
+403,19,Fruit,3,peach
+404,19,Fruit,3,pear
+405,19,Fruit,3,persimmon
+406,19,Fruit,4,pineapple
+407,19,Fruit,4,plum
+408,19,Fruit,4,strawberry
+409,19,Fruit,4,tangerine
+410,19,Fruit,4,watermelon
+411,20,Geography,1,beach
+412,20,Geography,1,desert
+413,20,Geography,1,forest
+414,20,Geography,1,hill
+415,20,Geography,2,mountain
+416,20,Geography,2,ocean
+417,20,Geography,2,pond
+418,20,Geography,2,river
+419,20,Geography,3,lake
+420,20,Geography,3,sea
+421,20,Geography,3,stream
+422,20,Geography,3,valley
+423,20,Geography,4,waterfall
+424,20,Geography,4,woods
+425,21,House,1,attic
+426,21,House,1,basement
+427,21,House,1,bath tub
+428,21,House,1,bathroom
+429,21,House,1,bed
+430,21,House,1,bedroom
+431,21,House,1,blanket
+432,21,House,1,bookcase
+433,21,House,1,carpet
+434,21,House,1,ceiling
+435,21,House,1,chair
+436,21,House,2,closet
+437,21,House,2,couch
+438,21,House,2,curtain
+439,21,House,2,desk
+440,21,House,2,dining room
+441,21,House,2,door
+442,21,House,2,fan
+443,21,House,2,floor
+444,21,House,2,furniture
+445,21,House,2,garage
+446,21,House,2,hall
+447,21,House,3,hallway
+448,21,House,3,key
+449,21,House,3,kitchen
+450,21,House,3,lamp
+451,21,House,3,living room
+452,21,House,3,lock
+453,21,House,3,mirror
+454,21,House,3,picture
+455,21,House,3,porch
+456,21,House,3,roof
+457,21,House,3,room
+458,21,House,4,rug
+459,21,House,4,shelf
+460,21,House,4,sink
+461,21,House,4,sofa
+462,21,House,4,stairs
+463,21,House,4,table
+464,21,House,4,toilet
+465,21,House,4,wall
+466,21,House,4,window
+467,22,Months,1,January
+468,22,Months,1,February
+469,22,Months,1,March
+470,22,Months,2,April
+471,22,Months,2,May
+472,22,Months,2,June
+473,22,Months,3,July
+474,22,Months,3,August
+475,22,Months,3,September
+476,22,Months,4,October
+477,22,Months,4,November
+478,22,Months,4,December
+479,23,Numbers 1-10,1,one
+480,23,Numbers 1-10,1,two
+481,23,Numbers 1-10,1,three
+482,23,Numbers 1-10,2,four
+483,23,Numbers 1-10,2,five
+484,23,Numbers 1-10,2,six
+485,23,Numbers 1-10,3,seven
+486,23,Numbers 1-10,3,eight
+487,23,Numbers 1-10,3,nine
+488,23,Numbers 1-10,4,ten
+489,24,Numbers 1-20,1,one
+490,24,Numbers 1-20,1,two
+491,24,Numbers 1-20,1,three
+492,24,Numbers 1-20,1,four
+493,24,Numbers 1-20,1,five
+494,24,Numbers 1-20,2,six
+495,24,Numbers 1-20,2,seven
+496,24,Numbers 1-20,2,eight
+497,24,Numbers 1-20,2,nine
+498,24,Numbers 1-20,2,ten
+499,24,Numbers 1-20,3,eleven
+500,24,Numbers 1-20,3,twelve
+501,24,Numbers 1-20,3,thirteen
+502,24,Numbers 1-20,3,fourteen
+503,24,Numbers 1-20,3,fifteen
+504,24,Numbers 1-20,4,sixteen
+505,24,Numbers 1-20,4,seventeen
+506,24,Numbers 1-20,4,eighteen
+507,24,Numbers 1-20,4,nineteen
+508,24,Numbers 1-20,4,twenty
+509,25,Restaurant,1,bill
+510,25,Restaurant,1,breakfast
+511,25,Restaurant,1,check
+512,25,Restaurant,1,cup
+513,25,Restaurant,1,dessert
+514,25,Restaurant,2,dinner
+515,25,Restaurant,2,dressing
+516,25,Restaurant,2,drink
+517,25,Restaurant,2,fork
+518,25,Restaurant,2,hamburger
+519,25,Restaurant,3,knife
+520,25,Restaurant,3,lunch
+521,25,Restaurant,3,menu
+522,25,Restaurant,3,napkin
+523,25,Restaurant,3,order
+524,25,Restaurant,4,salt
+525,25,Restaurant,4,spoon
+526,25,Restaurant,4,water
+527,25,Restaurant,4,coffee
+528,25,Restaurant,4,tea
+529,26,Tools,1,drill
+530,26,Tools,1,hammer
+531,26,Tools,1,knife
+532,26,Tools,2,plane
+533,26,Tools,2,pliers
+534,26,Tools,2,saw
+535,26,Tools,3,scissors
+536,26,Tools,3,screwdriver
+537,26,Tools,3,vise
+538,26,Tools,4,wrench
+539,27,Transportation,1,airplane
+540,27,Transportation,1,bicycle
+541,27,Transportation,1,boat
+542,27,Transportation,1,bus
+543,27,Transportation,2,car
+544,27,Transportation,2,helicopter
+545,27,Transportation,2,horse
+546,27,Transportation,2,jet
+547,27,Transportation,3,motorcycle
+548,27,Transportation,3,ship
+549,27,Transportation,3,subway
+550,27,Transportation,3,taxi
+551,27,Transportation,4,train
+552,27,Transportation,4,truck
+553,28,Vegetables,1,asparagus
+554,28,Vegetables,1,beans
+555,28,Vegetables,1,broccoli
+556,28,Vegetables,1,cabbage
+557,28,Vegetables,1,carrot
+558,28,Vegetables,2,celery
+559,28,Vegetables,2,corn
+560,28,Vegetables,2,cucumber
+561,28,Vegetables,2,eggplant
+562,28,Vegetables,2,green pepper
+563,28,Vegetables,3,lettuce
+564,28,Vegetables,3,onion
+565,28,Vegetables,3,peas
+566,28,Vegetables,3,potato
+567,28,Vegetables,3,pumpkin
+568,28,Vegetables,4,radish
+569,28,Vegetables,4,spinach
+570,28,Vegetables,4,sweet potato
+571,28,Vegetables,4,tomato
+572,28,Vegetables,4,turnip
+573,29,Weather,1,clear
+574,29,Weather,1,cloudy
+575,29,Weather,1,cold
+576,29,Weather,2,cool
+577,29,Weather,2,foggy
+578,29,Weather,2,hot
+579,29,Weather,3,humid
+580,29,Weather,3,rainy
+581,29,Weather,3,snowy
+582,29,Weather,4,stormy
+583,29,Weather,4,sunny
+584,29,Weather,4,warm
+585,29,Weather,4,windy
