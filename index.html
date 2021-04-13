@@ -10,93 +10,106 @@
 
     <title>Language Flash Cards</title>
 	
-	  
-
 	
   </head>
   <body>
-  
-		<div id="example">
-		<h1>Language Flash Cards</h1>
+	<div class="container" id="example">
+	<div class="jumbotron mt-5"><h1 class="display-1"><b>Language Flash Cards</b></h1></div>
+		<div class="row mt-5">
+		
 
+		<div class="col-md-3 col-lg-3 col-xl-3">
 		<div class="form-check">
-		  <input class="form-check-input" type="radio" name="language" value="ru" id="russian" v-model="language" v-on:change="printLanguage()">
+		  <input class="form-check-input" type="radio" name="language" value="ru" id="russian" v-model="language" v-on:change="resetAll()">
 		  <label class="form-check-label" for="russian">
 			Russian
 		  </label>
 		</div>
 		<div class="form-check">
-		  <input class="form-check-input" type="radio" name="language" value="pt" id="portuguese" v-model="language" v-on:change="printLanguage()">
+		  <input class="form-check-input" type="radio" name="language" value="pt" id="portuguese" v-model="language" v-on:change="resetAll()">
 		  <label class="form-check-label" for="portuguese">
 			Portuguese
 		  </label>
 		</div>
+		</div>
 
-
-		<div v-if="language!=''">
+		<div v-if="language!=''" class="col-md-3 col-lg-3 col-xl-3">
 			<div class="form-check">
-			  <input class="form-check-input" type="radio" name="word_type" value="noun" id="noun" v-model="word_type" v-on:change="printLanguage()">
+			  <input class="form-check-input" type="radio" name="word_type" value="noun" id="noun" v-model="word_type" v-on:change="resetType()">
 			  <label class="form-check-label" for="noun">
-				nouns
+				Nouns
 			  </label>
 			</div>
 			<div class="form-check">
-			  <input class="form-check-input" type="radio" name="word_type" value="verb" id="verb" v-model="word_type" v-on:change="printLanguage()">
+			  <input class="form-check-input" type="radio" name="word_type" value="verb" id="verb" v-model="word_type" v-on:change="resetType()">
 			  <label class="form-check-label" for="verb">
-				verbs
+				Verbs
 			  </label>
 			</div>
 			
 			<div class="form-check">
-			  <input class="form-check-input" type="radio" name="word_type" value="adjective" id="adjective" v-model="word_type" v-on:change="printLanguage()">
+			  <input class="form-check-input" type="radio" name="word_type" value="adjective" id="adjective" v-model="word_type" v-on:change="resetType()">
 			  <label class="form-check-label" for="adjective">
-				adjective
+				Adjectives
 			  </label>
 			</div>
 			
 			<div class="form-check">
-			  <input class="form-check-input" type="radio" name="word_type" value="other" id="other" v-model="word_type" v-on:change="printLanguage()">
+			  <input class="form-check-input" type="radio" name="word_type" value="other" id="other" v-model="word_type" v-on:change="resetType()">
 			  <label class="form-check-label" for="other">
-				other
+				Other
 			  </label>
 			</div>
 		</div>		
 		
 		<!--    ---- -->
 		
-		<div v-if="word_type!=''">
+		<div v-if="word_type!=''" class="col-md-3 col-lg-3 col-xl-3">
 			<div class="form-check">
-			  <input class="form-check-input" type="radio" name="set" value="set1" id="set1" v-model="set" v-on:change="printLanguage()">
+			  <input class="form-check-input" type="radio" name="set" value="set1" id="set1" v-model="set" v-on:change="resetSet()">
 			  <label class="form-check-label" for="set1">
-				set1
+				Basic
 			  </label>
 			</div>
 			<div class="form-check">
-			  <input class="form-check-input" type="radio" name="set2" value="set2" id="set2" v-model="set" v-on:change="printLanguage()">
+			  <input class="form-check-input" type="radio" name="set2" value="set2" id="set2" v-model="set" v-on:change="resetSet()">
 			  <label class="form-check-label" for="set2">
-				set2
+				Intermediate
 			  </label>
-			</div>
-			
+			</div>			
 			<div class="form-check">
-			  <input class="form-check-input" type="radio" name="set3" value="set3" id="set3" v-model="set" v-on:change="printLanguage()">
+			  <input class="form-check-input" type="radio" name="set3" value="set3" id="set3" v-model="set" v-on:change="resetSet()">
 			  <label class="form-check-label" for="set3">
-				set3
+				Advanced
 			  </label>
 			</div>
 		</div>			
 
-		<div v-if="set!=''">
+		<div v-if="set!=''" class="col-md-3 col-lg-3 col-xl-3">
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="foreign" value="foreign" id="foreign" v-model="order" v-on:change="resetOrder()">
+			  <label class="form-check-label" for="foreign">
+				Foreign language first
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="radio" name="native" value="native" id="native" v-model="order" v-on:change="resetOrder()">
+			  <label class="form-check-label" for="native">
+				Native language first
+			  </label>
+			</div>			
+		</div>
 		
-			<div class="row">
-				<div class="col-lg-6">
+		<div v-if="order!=''">
+			<div class="row mt-5">
+				<div class="col-lg-6 mt-3">
 					<div class="jumbotron jumbotron-fluid text-center" v-on:click="moveDisplaySM()">
 					  <div class="container justify-content-center">
 						<h1 class="display-1">{{fo_word}}</h1>
 					  </div>
 					</div>
 				</div>
-				<div class="col-lg-6">
+				<div class="col-lg-6 mt-3">
 					<div class="jumbotron jumbotron-fluid text-center" v-on:click="moveDisplaySM()">
 					  <div class="container justify-content-center">
 						<h1 class="display-1">{{en_word}}</h1>
@@ -104,9 +117,15 @@
 					</div>
 				</div>
 			</div>
+			<div class="row ">
+				<div class="col-md-6 text-center" v-if="this.word_type=='verb'&&this.en_word!=''">
+					<a :href="conjugate" target="_blank">Conjugate <b> {{ this.fo_word }} </b></a>
+				</div>
+			</div>
 		
 		</div>
 
+	</div>
 </div>
 
 
@@ -139,7 +158,8 @@
 				display_sm: 0,
 				displayed_word: '', 
 				english_word: '', 
-				picked_word: []
+				picked_word: [],
+				order:''
 			},
 			
 			
@@ -148,6 +168,39 @@
 					console.log(this.language);
 				}, 
 				
+				resetAll() {
+					this.word_type = '';
+					this.set = '';
+					this.order = '';
+					this.picked_word = [];
+					this.displayed_word = '';
+					this.english_word = '';
+				},
+				
+				resetType() {
+					this.set = '';
+					this.order = '';
+					this.picked_word = [];
+					this.displayed_word = '';
+					this.english_word = '';
+				},
+				resetSet() {
+					this.order = '';
+					this.picked_word = [];
+					this.displayed_word = '';
+					this.english_word = '';
+				},
+				
+				resetOrder() {
+
+					this.picked_word = [];
+					this.displayed_word = '';
+					this.english_word = '';
+					this.fo_word= 'Click to start';
+					this.en_word='';
+					this.display_sm = 0;
+				},
+				
 				moveDisplaySM() {
 					// a simple display state machine mover.
 					// Init (0) -----> lang_only -----> lang + en ---+
@@ -155,29 +208,55 @@
 					//                    |                          |
 					//                    ---------------------------+
 					
-					console.log(this);
-					if (this.display_sm == 0) {
-
-							var picked_set = this[this.language][this.word_type][this.set];
-							this.picked_word = picked_set[Math.floor(Math.random() * picked_set.length)];
-							this.fo_word = this.picked_word[this.language];
-							this.en_word = '';
-							this.display_sm += 1;
+					if (this.order == 'foreign') {
+						console.log(this);
+						if (this.display_sm == 0) {
+								var picked_set = this[this.language][this.word_type][this.set];
+								this.picked_word = picked_set[Math.floor(Math.random() * picked_set.length)];
+								this.fo_word = this.picked_word[this.language];
+								this.en_word = '';
+								this.display_sm += 1;
+						}
 						
-					}
-					
-					else {
+						else {
+								this.en_word = this.picked_word.en;
+								this.display_sm = 0;					
+						}
+					} 
+					else if (this.order == 'native') {
+						console.log(this);
+						if (this.display_sm == 0) {
+								var picked_set = this[this.language][this.word_type][this.set];
+								this.picked_word = picked_set[Math.floor(Math.random() * picked_set.length)];
+								//this.fo_word = this.picked_word[this.language];
+								//this.en_word = '';
+								this.fo_word = '';
+								this.en_word = this.picked_word.en;
+								this.display_sm += 1;
+						}
 						
-							this.en_word = this.picked_word.en;
-							this.display_sm = 0;
-					
+						else {
+								//this.en_word = this.picked_word.en;
+								this.fo_word = this.picked_word[this.language];
+								this.display_sm = 0;					
+						}
 					}
-					
 				}
 			}, 
 			
 			 mounted () {
 
+			  }, 
+			  
+			  computed: {
+				conjugate: function() {
+					if (this.language == 'pt') {
+						return 'https://conjugator.reverso.net/conjugation-portuguese-verb-' + this.fo_word + '.html';
+					}
+					else if  (this.language == 'ru') {
+						return 'https://conjugator.reverso.net/conjugation-russian-verb-' + this.fo_word + '.html';
+					}
+				}
 			  }
         })
     </script>
